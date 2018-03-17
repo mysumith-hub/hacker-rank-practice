@@ -23,7 +23,7 @@ public class ArrayManipulation {
 		int size = scanner.nextInt();
 		int in = scanner.nextInt();
 		long array[] = new long[size];
-		List<Query> queries = new ArrayList<>();
+		List<Query> queries = new ArrayList<Query>();
 		long temp = 0;
 		for(int q = 0 ;q<in;q++){
 			int a = scanner.nextInt();
